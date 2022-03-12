@@ -46,17 +46,26 @@
 
     </style>
     <link rel="stylesheet" href="question.html">
+    <script src="index.js"></script>
   </head>
   <body>
     <div id="main center">
-      <div class="welcome">
+      <div id="greetin" class="welcome">
       <p>
         Test your front-end developer skills by answering the following
         questions
       </p>
       <a href="question.html">
-      <button id="btnbegin" onclick="dosomething();">Begin</button>
-      </a>
+      <button id="btnbegin" onclick="doGame();">Begin</button>
+      </div>
+      <div id="score-board" class="hide"></div>
+      <div id="timerCinatiner"> time remaining: <span id="timer"
+        style="text-align:left"></span></div>
+        <span style="text-align:right">score</span>
+      </div>
+    <div id="question" clsss="hide">
+      </div>
     </div>
+
   </body>
 </html>
